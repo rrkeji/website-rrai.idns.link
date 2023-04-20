@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "author": "rrkeji <rrkeji@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "antd": "^5.4.3",
+    "classnames": "^2.3.2",
+    "enquire-js": "^0.2.1",
+    "rc-queue-anim": "^2.0.0",
+    "rc-scroll-anim": "^2.7.6",
+    "rc-tween-one": "^3.0.6",
+    "umi": "^4.0.65"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "gh-pages": "^5.0.0",
+    "typescript": "^5.0.3"
+  }
+}

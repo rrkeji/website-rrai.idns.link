@@ -1,0 +1,50 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 8px;
+  border: 1px solid #A9A9A9;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  /* 去除默认的下划线 */
+  outline: none;
+  /* 去除旧版浏览器的点击后的外虚线框 */
+  color: #000;
+  /* 去除默认的颜色和点击后变化的颜色 */
+}
+
+:global {
+  * {
+    box-sizing: border-box;
+  }
+
+  .ant-modal-body {
+    padding: 0 0;
+  }
+
+  .ant-popover-inner {
+    border-radius: 10px;
+  }
+}
