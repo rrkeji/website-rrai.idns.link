@@ -54,7 +54,7 @@ export const DownloadPage = (props: { classNameName?: string }) => {
               </div>
               <p>Windows</p>
             </div>
-            <a href='https://www.idns.link/statics/rrai/desktop/windows/latest/rrai_desktop.dmg'
+            <a href='https://www.idns.link/statics/rrai/desktop/windows/latest/rrai_desktop.msi'
               className={classnames(styles.modal, styles.back)}>
               <div className={classnames(styles.iconfont)}>
                 <DownloadOutlined />
@@ -69,7 +69,7 @@ export const DownloadPage = (props: { classNameName?: string }) => {
               </div>
               <p style={{ marginTop: '2px' }}>Linux</p>
             </div>
-            <a href='https://www.idns.link/statics/rrai/desktop/linux/latest/rrai_desktop.dmg'
+            <a href='https://www.idns.link/statics/rrai/desktop/linux/latest/rrai_desktop.tar.gz'
               className={classnames(styles.modal, styles.back)}>
               <div className={classnames(styles.iconfont)}>
                 <DownloadOutlined />
