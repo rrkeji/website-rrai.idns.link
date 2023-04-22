@@ -77,7 +77,7 @@ export const Footer10DataSource = {
         title: { children: '资源' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: '软软AI社区' },
+            { href: 'https://github.com/rrkeji', name: 'link0', children: '软软Github' },
             { href: '#', name: 'link1', children: 'IDNS社区' },
           ],
         },

@@ -49,6 +49,16 @@ export const Header = (props: any) => {
                         >
                             下载
                         </div>
+                        <a
+                            className={classnames(
+                                styles.item,
+                                active === '/github' ? styles.selected : undefined,
+                            )}
+                            target="_blank"
+                            href="https://github.com/rrkeji/rrai-desktop"
+                        >
+                            Github
+                        </a>
                         <div
                             className={classnames(
                                 styles.item,

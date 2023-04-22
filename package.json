@@ -6,6 +6,7 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
+    "deploy": "gh-pages -d dist",
     "start": "npm run dev"
   },
   "dependencies": {

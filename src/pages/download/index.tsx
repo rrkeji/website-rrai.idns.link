@@ -78,6 +78,14 @@ export const DownloadPage = (props: { classNameName?: string }) => {
             </a>
           </div>
         </div>
+        <div className={styles.title}>
+          <i className={styles.web_font}>Github所有版本下载</i>
+        </div>
+        <div className={styles.desc}>
+          <a href='https://github.com/rrkeji/rrai-desktop/releases' target={'_blank'}>
+            https://github.com/rrkeji/rrai-desktop/releases
+          </a>
+        </div>
       </div>
     </div>
   );
